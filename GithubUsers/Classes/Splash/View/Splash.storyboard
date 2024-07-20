@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Wyi-vB-n1v">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Splash View Controller-->
+        <scene sceneID="7OA-oC-PJt">
+            <objects>
+                <viewController id="Wyi-vB-n1v" customClass="SplashViewController" customModule="GithubUsers" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="p8v-KA-qpE">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="445-1u-AGg">
+                                <rect key="frame" x="50" y="419" width="314" height="72"/>
+                                <string key="text">COGIA
+Technical Assessment</string>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <color key="textColor" name="FontColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="by Siti Norain bt. Ishak" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dXo-ng-sob">
+                                <rect key="frame" x="30" y="827.5" width="354" height="14.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" name="FontColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="drF-XP-5yo"/>
+                        <color key="backgroundColor" name="ThemeColor"/>
+                        <constraints>
+                            <constraint firstItem="445-1u-AGg" firstAttribute="leading" secondItem="drF-XP-5yo" secondAttribute="leading" constant="50" id="OKm-wJ-bn6"/>
+                            <constraint firstItem="445-1u-AGg" firstAttribute="centerY" secondItem="drF-XP-5yo" secondAttribute="centerY" id="TPZ-KH-z0D"/>
+                            <constraint firstItem="drF-XP-5yo" firstAttribute="trailing" secondItem="445-1u-AGg" secondAttribute="trailing" constant="50" id="ZL7-cQ-nXu"/>
+                            <constraint firstItem="drF-XP-5yo" firstAttribute="trailing" secondItem="dXo-ng-sob" secondAttribute="trailing" constant="30" id="mOL-8S-fvc"/>
+                            <constraint firstItem="dXo-ng-sob" firstAttribute="leading" secondItem="drF-XP-5yo" secondAttribute="leading" constant="30" id="o5g-Nh-Nwt"/>
+                            <constraint firstItem="drF-XP-5yo" firstAttribute="bottom" secondItem="dXo-ng-sob" secondAttribute="bottom" constant="20" id="qYH-DC-zet"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="9w8-WI-Rug"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2yy-kN-5Cf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="998.55072463768124" y="142.63392857142856"/>
+        </scene>
+    </scenes>
+    <resources>
+        <namedColor name="FontColor">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="ThemeColor">
+            <color red="0.25098039215686274" green="0.50588235294117645" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
